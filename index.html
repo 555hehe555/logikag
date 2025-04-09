@@ -1,69 +1,150 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="uk-UA">
 <head>
-    <title>BitMarket</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&display=swap" rel="stylesheet">
+
+    <title>WebStudio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <img class="logo" src="/uploads/2021/03/logo1_0_1615899136.svg">
-        <a class="button" href="">Знижки</a>
-    </header>
-    <nav>
-        <a class="nav-link" href="">Каталог</a>
-        <a class="nav-link" href="">Оптом</a>
-        <a class="nav-link" href="">Доставка</a>
-        <a class="nav-link" href="">Повернення товара</a>
-    </nav>
-    <main>
-        <h1>Професіонали радять</h1>
-        <section class="info">
-            <article class="post">
-                <h2>Лэптоп для відпочинку</h2>
-                <img class="samsa" src="https://kaetana.ua/dbfiles/pr_bg_news_img_78.png">
-                <img class="post-img" src="/uploads/2021/02/notebook-405755_1920_0_1613586011.jpg" width="400px" height="300px"/>
-                <p class="post-text">Samsung V145-S</p>
-                <a class="article-but" href="">Детальніше</a>
-            </article>
-            <article class="post">
-                <h2>Як обрати навушники</h2>
-                <img class="post-img" src="/uploads/2021/02/music-1813100_1280_0_1613586010.png" width="330px" height="300px"/>
-                <p class="post-text">Поговорим о новинках</p>
-                <a class="article-but" href="">Детальніше</a>
-            </article>
-            <article class="post">
-                <h2>Телефон мрії</h2>
-                <img class="post-img" src="/uploads/2021/02/mobile-phone-1875813_1920_0_1613586011.jpg" width="400px" height="300px"/>
-                <p class="post-text">Apple iphone 13</p>
-                <a class="article-but" href="">Детальніше</a>
-            </article>
-            <article class="post">
-                <h2>Техника для всього</h2>
-                <img class="post-img" src="/uploads/2021/02/laptop-1483974_1920_0_1613586010.jpg" width="400px" height="300px"/>
-                <p class="post-text">Та цілого світу мало...</p>
-                <a class="article-but" href="">Детальніше</a>
-            </article>
-        </section>
-        <div class="promo">
-            <p><b>Напиши — отримай промокод!</b></p>
-            <a class="social"
-                href=""><img src="/uploads/2021/02/icon-set-1142000_1280%201_0_1613586391.png" width="30px" height="30px"></a>
-            <a class="social"
-                href=""><img src="/uploads/2021/02/instagram-3288419_1280%201_0_1613586391.png" width="30px" height="30px"></a>
+    <header class="header">
+        <div class="container header-container">
+            <div>
+                <a class="header-logo" href="index.html">
+                    <span class="header-logo-blue">Web</span>Studio
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a class="nav-list-link link-hover-style" href="studio.html">
+                            про нас
+                        </a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-list-link link-hover-style" href="portfolio.html">
+                            портфоліо
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="adres-list">
+                <li class="adres-list-item">
+                    <a class = "link-hover-style adres-list-link" href="mailto:info@devstudio.com">
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="adres-list-item">
+                    <a class = "link-hover-style adres-list-link" href="tel:+380961111111">
+                        +38 096 111 11 11 
+                    </a>
+                </li>
+            </ul>    
         </div>
-        <img class="full-image" src="/uploads/2021/02/mobile-phone-1419275_1920_0_1613586010.jpg" width="100%" min-height="270"/>
-
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <h1 class="hero-title">Ефективні рішення <br>для вашого бізнесу</h1>
+                <button type="button" class="hero-button">Замовити послугу</button>
+            </div>
+        </section>
+        <section class="about-company">
+            <div class="container">
+                <ul class="about-company-list">
+                    <li class="about-company-list-item">
+                        <h3 class="about-company-list-item-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="about-company-list-item-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    </li>
+                    <li class="about-company-list-item">
+                        <h3 class="about-company-list-item-title">ПУНКТУАЛЬНІСТЬ</h3>
+                        <p class="about-company-list-item-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    </li>
+                    <li class="about-company-list-item">
+                        <h3 class="about-company-list-item-title">ПЛАНУВАННЯ</h3>
+                        <p class="about-company-list-item-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    </li>
+                    <li class="about-company-list-item">
+                        <h3 class="about-company-list-item-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="about-company-list-item-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="what-we-do-img">
+            <div class="container">
+                <h2 class="section-title">Чим ми займаємося</h2>
+                <ul class="what-we-do-img-list">
+                    <li class="what-we-do-img-list-item">
+                        <img src="./img/img.png" width="370" alt="робота на клавіатурі" title="робота на клавіатурі">
+                    </li>
+                    <li class="what-we-do-img-list-item">
+                        <img src="./img/img2.png" width="370" alt="дивляться в телефон" title="дивляться в телефон">
+                    </li>
+                    <li class="what-we-do-img-list-item">
+                        <img src="./img/img3.png" width="370" alt="вибирають колір на планшеті" title="вибирають колір на планшеті">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="team">
+            <div class="container">
+                <h2 class="team-title section-title">Наша команда</h2>
+                <ul class="team-list">
+                    <li class="team-list-item">
+                        <img src="./img/img4.jpg" width="270" alt="Ігор Дем'яненко" title="Ігор Дем'яненко">
+                        <h4 class="team-list-worker-name">Ігор Дем'яненко</h4>
+                        <p class="team-list-worker-status">Product Designer</p>
+                    </li>
+                    <li class="team-list-item">
+                        <img src="./img/img5.jpg" width="270" alt="Ольга Рєпіна" title="Ольга Рєпіна">
+                        <h4 class="team-list-worker-name">Ольга Рєпіна</h4>
+                        <p class="team-list-worker-status">Frontend Developer</p>
+                    </li>
+                    <li class="team-list-item">
+                        <img src="./img/img6.jpg" width="270" alt="Микола Тарасов" title="Микола Тарасов">
+                        <h4 class="team-list-worker-name">Микола Тарасов</h4>
+                        <p class="team-list-worker-status">Marketing</p>
+                    </li>
+                    <li class="team-list-item">
+                        <img src="./img/img7.jpg" width="270" alt="Михайло Єрмаков" title="Михайло Єрмаков">
+                        <h4 class="team-list-worker-name">Михайло Єрмаков</h4>
+                        <p class="team-list-worker-status">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
     <footer>
-        <div class="contacts">
-            <p class="footer-text"><span class="address"><img src="https://himopt.com.ua/image/cache/catalog/image/cache/catalog/products/111/564687897-700x700.webp" style="width:30px;height:30px;">Адрес:</span> Місто Технологічне,<br/> пр-т Сучасний, 29/2</p>
-            <p class="footer-text"><span class="tel"><img src="https://exclusive-tobacco.com/content/images/10/356x297l85nn0/kurylna-trubka-boxin-82853395864846.pngp" style="width:30px;height:30px;">Телефон:</span> 4138-564</p>
-        </div>
-        <div class="footer-logo">
-            <img src="/uploads/2021/03/logo2_0_1615898903.svg"/>
+        <div class="container">
+            <a class="header-logo" href="index.html">
+                <span class="header-logo-blue">Web</span><samp class="header-logo-white">Studio</samp>
+            </a>
+
+            <p class="footer-address">м. Київ, пр-т Лесі Українки, 26</p>
+            
+            <ul class="address-list">
+                <li class="address-list-item">
+                    <a class = "link-hover-style adres-list-link" href="mailto:info@devstudio.com">
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="address-list-item">
+                    <a class = "link-hover-style adres-list-link" href="tel:+380961111111">
+                        +38 096 111 11 11 
+                    </a>
+                </li>
+            </ul>    
         </div>
     </footer>
 </body>
-
 </html>
