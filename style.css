@@ -47,7 +47,7 @@ img{
 /* -----------code------------ */
 /* -----------heder----------- */
 :root{
-  --main-font:"Roboto";
+  --main-font:"Merriweather";
   --logo-font:"Raleway";
 }
 
@@ -130,8 +130,14 @@ body {
   letter-spacing: 0.02em;
 }
 
+.link-hover-style{
+  font-size: 16px;
+}
+
 .link-hover-style:hover,
 .link-hover-style:focus{
+  transition: 0.5s;
+  font-size: 18px;
   color: #2196F3;
 }
 
@@ -183,6 +189,7 @@ body {
   display: block;
   margin: 0 auto;
   padding: 10px 24px;
+  width: 200px;
   border: none;
   border-radius: 10px;
   background: #2196F3;
@@ -194,6 +201,12 @@ body {
   font-weight: 700;
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.96px;
+}
+
+.hero-button:hover{
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 10px rgb(40, 155, 231);
+  background-color: #d021f3;
 }
 
 .about-company{
@@ -321,25 +334,79 @@ footer{
   letter-spacing: 0.42px;
 }
 
-.about-us h1{
+.about-us h1, .portfolio-all h1{
   text-align: center;
-  margin: 30px 0;
+  margin: 50px 0 30px 0;
 }
 
-.about-us p{
-  font-size: 0.75em;
-  margin-bottom: 20px;
+.about-us p, .portfolio-all p{
+  font-size: 0.7em;
+  margin-bottom: 10px;
 }
 
-.portfolio-all h1{
-  text-align: center;
-  margin: 30px 0;
+.about-us p:last-child, 
+.portfolio-all p:last-child{
+  margin-bottom: 100px;
 }
 
-.portfolio-all p{
-  margin: 30px 0;
+.portfolio-all ul{
+  list-style-type: disc;
+  margin-bottom: 10px;
 }
 
 .portfolio-all li{
-  margin: 10px 0 10px 20px;
+  font-size: 0.7em;
+  margin-left: 25px;
+}
+
+.form-title{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.form-order{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #bdbdbd;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+}
+
+.form-order button{
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  background-color: #2196F3;
+  border: none;
+  border-radius: 20px;
+  color: #FFF;
+  font-size: 16px;
+}
+
+.form-order button:hover{
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 10px rgb(40, 155, 231);
+  background-color: #d021f3;
+}
+
+.form-order input, .form-order select{
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.form-order p{
+  margin-top: -15px;
+  top: 20px;
+  position: relative;
+  font-size: 16px;
+  text-align: center;
+}
+
+.order-container{
+  width: 200px;
 }
