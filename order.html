@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet" />
+    <!-- Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+
+
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a class="header-logo" href="index.html">
+                <span class="header-logo-blue">Web</span>Studio
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a class="nav-list-link link-hover-style" href="studio.html">про нас</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-list-link link-hover-style" href="portfolio.html">портфоліо</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form class="form-order">
+            <h1 class="form-title">Замовлення послуги</h1>
+
+            <div class="order-container">
+                <p for="name">Ваше ім'я:</p>
+                <input type="text" id="name" name="name" required />
+
+                <p for="email">Ваша пошта:</p>
+                <input type="email" id="email" name="email" required />
+
+                <p for="service">Послуга:</p>
+                <select id="service" name="service">
+                    <option value="design">Дизайн</option>
+                    <option value="development">Розробка</option>
+                    <option value="marketing">Маркетинг</option>
+                </select>
+
+                <p for="detail">Побажання:</p>
+                <input type="detail" id="detail" name="detail"/>
+            </div>
+
+            <button type="submit">Замовити</button>
+        </form>
+    </main>
+    <footer>
+        <div class="container">
+            <a class="header-logo" href="index.html">
+                <span class="header-logo-blue">Web</span><samp class="header-logo-white">Studio</samp>
+            </a>
+
+            <p class="footer-address">м. Київ, пр-т Лесі Українки, 26</p>
+
+            <ul class="address-list">
+                <li class="address-list-item">
+                    <a class="link-hover-style adres-list-link" href="mailto:info@devstudio.com">
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="address-list-item">
+                    <a class="link-hover-style adres-list-link" href="tel:+380961111111">
+                        +38 096 111 11 11
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
