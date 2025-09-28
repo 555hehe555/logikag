@@ -23,7 +23,7 @@ let correctQuestions = 0
 
 
 async function queryLMStudio(systemPrompt, userMessage) {
-    const url = "http://localhost:8080/api/v1/generate";
+    const url = "http://localhost:8080/v1/chat/completions";
 
     const payload = {
         messages: [
